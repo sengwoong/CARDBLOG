@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>반응형 UI 디자인</title>
+    <link rel="stylesheet" href="asd2.css">
+</head>
+<body>
+    <!-- 메인 컨테이너 -->
+    <div class="container">
+        <!-- 사이드바 섹션 -->
+        <aside class="sidebar">
+            <div class="sidebar__header">
+                <h2 class="sidebar__title">NEWS</h2>
+            </div>
+            <div class="sidebar__content">
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+                <div class="sidebar__item sidebar__item--large"></div>
+            </div>
+        </aside>
+
+        <!-- 메인 콘텐츠 섹션 -->
+        <main class="main-content">
+            <div class="main-content__header">
+                <h1 class="main-content__title">TITLE</h1>
+            </div>
+            
+            <div class="main-content__body">
+                <p class="main-content__text">
+                    내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용
+                    내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용
+                    내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용
+                    내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용 내용내용
+                </p>
+                <p class="main-content__text">스크롤 테스트를 위한 예시 텍스트입니다. 스크롤 영역이 충분히 길어지도록 여러 문장을 배치합니다. 스크롤 동작과 페이드 효과 확인용입니다.</p>
+                <p class="main-content__text">스크롤 테스트를 위한 예시 텍스트입니다. 스크롤 영역이 충분히 길어지도록 여러 문장을 배치합니다. 스크롤 동작과 페이드 효과 확인용입니다.</p>
+                <p class="main-content__text">스크롤 테스트를 위한 예시 텍스트입니다. 스크롤 영역이 충분히 길어지도록 여러 문장을 배치합니다. 스크롤 동작과 페이드 효과 확인용입니다.</p>
+                <p class="main-content__text">스크롤 테스트를 위한 예시 텍스트입니다. 스크롤 영역이 충분히 길어지도록 여러 문장을 배치합니다. 스크롤 동작과 페이드 효과 확인용입니다.</p>
+                
+                <!-- 댓글 목록 -->
+                <div class="comments">
+                    <h3 class="comments__title">댓글 목록</h3>
+                    <div class="comments__list" id="comments-list">
+                        <div class="comment">
+                            <div class="comment__header">
+                                <span class="comment__type">댓글</span>
+                                <span class="comment__timestamp">예시</span>
+                            </div>
+                            <div class="comment__content">예시 댓글 내용입니다. 스크롤 확인을 위한 샘플입니다.</div>
+                            <div class="comment__reply">
+                                <div class="comment__reply-header">
+                                    <span class="comment__reply-type">대댓글</span>
+                                    <span class="comment__reply-timestamp">예시</span>
+                                </div>
+                                <div class="comment__reply-parent">→ 예시 댓글 내용입니다.</div>
+                                <div class="comment__reply-content">예시 대댓글 내용입니다.</div>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <div class="comment__header">
+                                <span class="comment__type">댓글</span>
+                                <span class="comment__timestamp">예시</span>
+                            </div>
+                            <div class="comment__content">두 번째 예시 댓글입니다. 길이를 늘려 스크롤 테스트합니다.</div>
+                        </div>
+                        <div class="comment">
+                            <div class="comment__header">
+                                <span class="comment__type">댓글</span>
+                                <span class="comment__timestamp">예시</span>
+                            </div>
+                            <div class="comment__content">세 번째 예시 댓글입니다.</div>
+                            <div class="comment__reply">
+                                <div class="comment__reply-header">
+                                    <span class="comment__reply-type">대댓글</span>
+                                    <span class="comment__reply-timestamp">예시</span>
+                                </div>
+                                <div class="comment__reply-parent">→ 세 번째 예시 댓글입니다.</div>
+                                <div class="comment__reply-content">세 번째 예시의 대댓글입니다.</div>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <div class="comment__header">
+                                <span class="comment__type">댓글</span>
+                                <span class="comment__timestamp">예시</span>
+                            </div>
+                            <div class="comment__content">네 번째 예시 댓글입니다.</div>
+                        </div>
+                        <div class="comment">
+                            <div class="comment__header">
+                                <span class="comment__type">댓글</span>
+                                <span class="comment__timestamp">예시</span>
+                            </div>
+                            <div class="comment__content">다섯 번째 예시 댓글입니다.</div>
+                        </div>
+                        <div class="comment">
+                            <div class="comment__header">
+                                <span class="comment__type">댓글</span>
+                                <span class="comment__timestamp">예시</span>
+                            </div>
+                            <div class="comment__content">여섯 번째 예시 댓글입니다.</div>
+                            <div class="comment__reply">
+                                <div class="comment__reply-header">
+                                    <span class="comment__reply-type">대댓글</span>
+                                    <span class="comment__reply-timestamp">예시</span>
+                                </div>
+                                <div class="comment__reply-parent">→ 여섯 번째 예시 댓글입니다.</div>
+                                <div class="comment__reply-content">여섯 번째 예시의 대댓글입니다.</div>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <div class="comment__header">
+                                <span class="comment__type">댓글</span>
+                                <span class="comment__timestamp">예시</span>
+                            </div>
+                            <div class="comment__content">스크롤 확인용 댓글 7</div>
+                        </div>
+                        <div class="comment">
+                            <div class="comment__header">
+                                <span class="comment__type">댓글</span>
+                                <span class="comment__timestamp">예시</span>
+                            </div>
+                            <div class="comment__content">스크롤 확인용 댓글 8</div>
+                        </div>
+                        <div class="comment">
+                            <div class="comment__header">
+                                <span class="comment__type">댓글</span>
+                                <span class="comment__timestamp">예시</span>
+                            </div>
+                            <div class="comment__content">스크롤 확인용 댓글 9</div>
+                        </div>
+                        <div class="comment">
+                            <div class="comment__header">
+                                <span class="comment__type">댓글</span>
+                                <span class="comment__timestamp">예시</span>
+                            </div>
+                            <div class="comment__content">스크롤 확인용 댓글 10</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-content__form">
+
+
+                <div class="form-group form-group--full">
+                    <input type="text" id="comment-input" class="form-group__input form-group__input--wide" placeholder="댓글 등록">
+                    <button type="button" class="form-group__button" id="submit-comment">댓글 등록</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="asd2.js"></script>
+</body>
+</html>
